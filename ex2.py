@@ -1,9 +1,12 @@
-from math import *
+"""Write a python program to accept the height of a person in centimeter and 
+categorize the person according to their height"""
 
-r = int(input("Enter radius"))
 
-	#volume of sphere = 4/3 pi r3
+a=int(input("enter height of a person in centimeters :"))
 
-volume = (4/3) * 3.14 * (r**3)	
-	
-print("volume of a sphere :" , volume) 
+height=a//30.84
+
+print("height of a given person ",height)
+
+
+

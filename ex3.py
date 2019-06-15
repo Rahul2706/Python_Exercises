@@ -1,10 +1,4 @@
-# program that takes hours and minutes as input, and 
-#	calculates the total number of minutes.
+n1 =int(input("Enter 10 number"))
 
 
-hours = int(input("Enter no. of hours :"))
-mins = int(input("Enter no. of minutes :"))
-
-cal = (hours*60) + (mins)
-
-print("Total no. of minutes :", cal)
+print("Largest element :",max(n1))

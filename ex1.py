@@ -1,14 +1,11 @@
-n1 = int(input("Enter any number : "))
-n2 = int(input("Enter any number : "))
-n3 = int(input("Enter any number : "))
-n4 = int(input("Enter any number : "))
-n5 = int(input("Enter any number : "))
-n6 = int(input("Enter any number : "))
-n7 = int(input("Enter any number : "))
-n8 = int(input("Enter any number : "))
-n9 = int(input("Enter any number : "))
-n10 = int(input("Enter any number : "))
+"""
+Question :-1 Write a C program to read the age of a candidate and determine 
+whether it is eligible for casting his/her own vote
+"""
 
-ans = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10
+age = int(input("Enter age of  a person : "))
 
-print(" Sum of number is : ", ans)
+if age>18 :
+	print("Eligible for vote")
+else:
+	print("Not Eligible for vote")
